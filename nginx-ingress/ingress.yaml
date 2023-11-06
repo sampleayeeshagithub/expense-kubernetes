@@ -1,0 +1,1 @@
+#helm install my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.0.2
