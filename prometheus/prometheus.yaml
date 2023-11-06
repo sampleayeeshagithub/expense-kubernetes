@@ -5,6 +5,6 @@
 grafana:
   ingress:
     enabled: true
-    ingressClassName: alb
+    ingressClassName: nginx
     hosts:
       - grafana.ayeeshadevops75.online
