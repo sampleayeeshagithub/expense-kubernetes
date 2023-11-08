@@ -1,0 +1,11 @@
+controller:
+  service:
+    targetPorts:
+      http: http
+      https: http
+    annotations:
+      service.beta.kubernetes.io/aws-load-balancer-subnets: ["subnet-0dd22e7571f1c9a11", "subnet-08879d22fb03cf38d"]
+
+## helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+## helm repo update
+## helm install  ingress ingress-nginx/ingress-nginx -f ingress.yaml
