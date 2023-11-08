@@ -1,5 +1,7 @@
 controller:
   service:
+    internal:
+      enabled: false
     targetPorts:
       http: http
       https: http
