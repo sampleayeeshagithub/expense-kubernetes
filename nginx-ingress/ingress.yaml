@@ -3,8 +3,8 @@ controller:
     internal:
       enabled: false
     targetPorts:
-      http: https
-      https: https
+      http: http
+      https: http
     annotations:
       service.beta.kubernetes.io/aws-load-balancer-backend-protocol: tcp
       service.beta.kubernetes.io/aws-load-balancer-connection-idle-timeout: '60'
